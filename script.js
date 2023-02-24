@@ -3,6 +3,10 @@
 const Person = function (firstName, birthYear) {
   this.firstName = firstName;
   this.birthYear = birthYear;
+  //bad practice and never do that
+  //   this.calcAge = function () {
+  //     console.log(2023 - this.birthYear);
+  //   };
 };
 
 const ahmed = new Person('Ahmed', 1988);
