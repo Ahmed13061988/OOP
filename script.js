@@ -7,6 +7,7 @@ const Person = function (firstName, birthYear) {
   //   this.calcAge = function () {
   //     console.log(2023 - this.birthYear);
   //   };
+  //This is how we create object using consructor
 };
 
 const ahmed = new Person('Ahmed', 1988);
