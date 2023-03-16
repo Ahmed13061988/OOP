@@ -35,3 +35,8 @@ ahmed.calcAge();
 console.log(ahmed.__proto__);
 console.log(ahmed.__proto__ === Person.prototype);
 console.log(Person.prototype.isPrototypeOf(ahmed));
+
+Person.prototype.species = 'Homo Sapiens';
+console.log(ahmed.__proto__);
+console.log(ahmed.species);
+console.log(ahmed.hasOwnProperty('firstName'));
