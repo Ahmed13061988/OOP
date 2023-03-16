@@ -31,3 +31,7 @@ Person.prototype.calcAge = function () {
 console.log(Person.prototype);
 
 ahmed.calcAge();
+
+console.log(ahmed.__proto__);
+console.log(ahmed.__proto__ === Person.prototype);
+console.log(Person.prototype.isPrototypeOf(ahmed));
